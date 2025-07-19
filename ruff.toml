@@ -1,0 +1,17 @@
+target-version = "py313"
+line-length = 100
+extend-include = ["*.ipynb"]
+
+[lint]
+select = ["E", "F", "I", "S", "NPY", "UP", "D", "D212", "D402", "D417"]
+ignore = ["D100", "D104", "D400"]
+
+[lint.per-file-ignores]
+"scripts.py" = ["S603", "S605", "S607", "D"]
+"tests/**/test*.py" = ["S101", "D"]
+
+[lint.isort]
+lines-after-imports = 2
+
+[lint.pydocstyle]
+convention = "numpy"
