@@ -5,7 +5,7 @@ ROOT_DIR = Path(__file__).parent.parent
 
 
 def part1():
-    with open(ROOT_DIR / "data" / "day2_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day2_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [i.strip() for i in input_lines]
@@ -42,7 +42,7 @@ def part1():
 
 
 def part2():
-    with open(ROOT_DIR / "data" / "day2_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day2_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [i.strip() for i in input_lines]

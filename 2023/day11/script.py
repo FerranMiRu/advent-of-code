@@ -35,7 +35,7 @@ class Galaxy:
 
 
 def part1():
-    with open(ROOT_DIR / "data" / "day11_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day11_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [line.strip() for line in input_lines]
@@ -77,7 +77,7 @@ def part1():
 
 
 def part2():
-    with open(ROOT_DIR / "data" / "day11_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day11_input.txt") as f:
         input_lines = f.readlines()
 
     expansion_rate = 1000000

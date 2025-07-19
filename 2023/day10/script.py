@@ -64,7 +64,7 @@ def _worker(node_to_analyze, loop_nodes, map_matrix):
 
 
 def part1():
-    with open(ROOT_DIR / "data" / "day10_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day10_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [line.strip() for line in input_lines]
@@ -140,7 +140,7 @@ def part1():
 
 
 def part2():
-    with open(ROOT_DIR / "data" / "day10_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day10_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [line.strip() for line in input_lines]

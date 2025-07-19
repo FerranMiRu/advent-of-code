@@ -18,7 +18,7 @@ DIGIT_TO_NAME = {
 
 
 def part1():
-    with open(ROOT_DIR / "data" / "day1_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day1_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [i.strip() for i in input_lines]
@@ -37,7 +37,7 @@ def part1():
 
 
 def part2():
-    with open(ROOT_DIR / "data" / "day1_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day1_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [i.strip() for i in input_lines]

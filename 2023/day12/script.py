@@ -5,8 +5,7 @@ ROOT_DIR = Path(__file__).parent.parent
 
 
 def part1():
-    with open(ROOT_DIR / "data" / "day12_input.txt", "r") as f:
-        input_lines = f.readlines()
+    pass
 
 
 def part2():

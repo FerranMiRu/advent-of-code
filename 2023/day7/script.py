@@ -30,7 +30,7 @@ def hand_compare(hand1, hand2, card_order):
 
 
 def part1():
-    with open(ROOT_DIR / "data" / "day7_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day7_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [line.strip().split(" ") for line in input_lines]
@@ -76,7 +76,7 @@ def part1():
 
 
 def part2():
-    with open(ROOT_DIR / "data" / "day7_input.txt", "r") as f:
+    with open(ROOT_DIR / "data" / "day7_input.txt") as f:
         input_lines = f.readlines()
 
     input_lines = [line.strip().split(" ") for line in input_lines]
